@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1001SeachByKeyword,Chrome 108.0.0.0,,,2565-12-16 12:23:47,2565-12-16 12:23:54,7.530s,PASSED
+,,,,,,,
+Test Cases/TC1001SearchByKeyword,Chrome 108.0.0.0,,,2565-12-16 12:23:47,2565-12-16 12:23:54,7.352s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2565-12-16 12:23:47,2565-12-16 12:23:49,1.752s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2565-12-16 12:23:49,2565-12-16 12:23:50,0.792s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""npru"")",Chrome 108.0.0.0,,,2565-12-16 12:23:50,2565-12-16 12:23:51,0.801s,PASSED
+"click(findTestObject(""Page_Google/input__btnK""))",Chrome 108.0.0.0,,,2565-12-16 12:23:51,2565-12-16 12:23:53,2.206s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏนครปฐม"", false)",Chrome 108.0.0.0,,,2565-12-16 12:23:53,2565-12-16 12:23:54,0.940s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2565-12-16 12:23:54,2565-12-16 12:23:54,0.596s,PASSED
